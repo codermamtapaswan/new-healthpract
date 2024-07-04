@@ -919,17 +919,66 @@ details[open]>summary::before {
     position: relative;
 }
 
-
 .play-btn {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+}
+
+.play-btn .circle {
     width: 70px;
     height: 70px;
-    background: var(--color-gradient);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     border-radius: 50%;
+    background: var(--color-gradient);
+    margin: auto;
+    transform: scale(1, 1);
+}
+
+.play-btn .circle.pulse {
+    animation-timing-function: ease;
+    animation: pulse 2s infinite;
+    background: #cbe3e3;
+}
+
+.play-btn svg {
+    fill: #fff;
+    stroke: #fff;
+    stroke-linejoin: round;
+    stroke-width: 5;
+    transition: all 0.3s;
+}
+
+.play-btn svg:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1, 1);
+    }
+
+    25% {
+        transform: scale(1, 1);
+    }
+
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
 }
 
 .play-btn-box {
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
     padding-top: 100px;
 }
 
@@ -981,10 +1030,6 @@ details[open]>summary::before {
     .hero-content {
         grid-template-columns: auto;
         gap: 40px;
-    }
-
-    .play-btn-box {
-        padding-top: 50px;
     }
 
     .hero-content .btn-fill {
