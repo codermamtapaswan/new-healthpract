@@ -912,10 +912,9 @@ details[open]>summary::before {
 }
 
 .hero-header {
-    background: url("../img/hero-img.avif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
+    /* background: url("../img/hero-img.avif"); */
+    background: url("https://cdn.pixabay.com/photo/2016/11/18/14/15/woman-1834827_1280.jpg") no-repeat bottom/cover;
+    height: 550px;
     position: relative;
 }
 
