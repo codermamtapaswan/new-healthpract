@@ -904,7 +904,6 @@ details[open]>summary::before {
 
 /* hero header */
 /* header end */
-.hero-card,
 .play-btn-box,
 .play-btn {
     display: flex;
@@ -962,11 +961,20 @@ details[open]>summary::before {
 }
 
 .hero-card {
-    border: 1px solid #323232;
-    border-radius: 5px;
-    padding: 20px;
-    flex-direction: column;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 35px 0 35px 0;
+    border: 1px solid #e4e1e1;
     gap: 10px;
+    height: 100%;
+}
+
+.hero-card img {
+    margin-bottom: 20px;
+}
+
+.hero-card .h6 {
+    margin-bottom: 0;
 }
 
 @media (max-width:768px) {
