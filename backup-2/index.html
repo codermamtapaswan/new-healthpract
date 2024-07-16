@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preload" href="assets/fonts/be-vietnam-pro-v11-latin-600.woff2" fetchpriority="highest" as="font"
+    crossorigin="">
+  <link rel="preload" href="assets/fonts/be-vietnam-pro-v11-latin-700.woff2" fetchpriority="highest" as="font"
+    crossorigin="">
+  <link rel="preload" href="assets/fonts/be-vietnam-pro-v11-latin-regular.woff2" fetchpriority="highest" as="font"
+    crossorigin="">
+  <style>
+    @font-face {
+      font-display: swap;
+      font-family: 'Be Vietnam Pro';
+      font-style: normal;
+      font-weight: 400;
+      src: url('assets/fonts/be-vietnam-pro-v11-latin-regular.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: 'Be Vietnam Pro';
+      font-style: normal;
+      font-weight: 600;
+      src: url('assets/fonts/be-vietnam-pro-v11-latin-600.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-display: swap;
+      font-family: 'Be Vietnam Pro';
+      font-style: normal;
+      font-weight: 700;
+      src: url('assets/fonts/be-vietnam-pro-v11-latin-700.woff2') format('woff2');
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header>
+    <div class="container">
+      <div class="top-bar d-flex align-items-center">
+        <div class="site-logo">
+          <a href="index.html"><img src="assets/img/HealthPract-logo.svg" alt="site-logo"></a>
+        </div>
+        <div class="main-grp">
+          <div class="search-form">
+            <form action="">
+              <input type="search" name="" id="" required="" placeholder="Search Today ?">
+              <button type="submit" class="btn">
+                <svg fill="none" viewBox="0 0 14 14" width="14" height="14">
+                  <g clip-path="url(#a)">
+                    <path fill="#fff"
+                      d="M13.809 12.105 11.082 9.38a.656.656 0 0 0-.464-.191h-.446a5.66 5.66 0 0 0 1.203-3.5A5.687 5.687 0 0 0 5.687 0 5.687 5.687 0 0 0 0 5.688a5.687 5.687 0 0 0 5.688 5.687 5.66 5.66 0 0 0 3.5-1.203v.446c0 .175.068.341.19.464l2.727 2.727a.654.654 0 0 0 .927 0l.774-.774a.66.66 0 0 0 .003-.93zM5.688 9.187a3.498 3.498 0 0 1-3.5-3.5c0-1.933 1.564-3.5 3.5-3.5 1.933 0 3.5 1.565 3.5 3.5 0 1.934-1.565 3.5-3.5 3.5z" />
+                  </g>
+                  <defs>
+                    <clipPath id="a">
+                      <path fill="#fff" d="M0 0h14v14H0z" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+            </form>
+          </div>
+          <div class="mobile-toggle">
+            <div class="toggle-slide-btn">
+              <svg width="20" height="20" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" fill="#00000099">
+                <path
+                  d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm64 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zm384 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" />
+              </svg>
+            </div>
+            <div class="mob-search-btn">
+              <span class="search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M7.333 12.667A5.333 5.333 0 1 0 7.333 2a5.333 5.333 0 0 0 0 10.667ZM14 14l-2.9-2.9"
+                    stroke="#565656" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Wellness</a></li>
+        <li><a href="#">Healthy</a></li>
+        <li class="dropdown">
+          <a href="#">
+            Mental Health
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 14 8" fill="none">
+              <path d="M1 2L7 7L13 2" stroke="#ffffff" stroke-opacity="0.8" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+          <ul>
+            <li><a href="single.html">Top 10</a></li>
+            <li><a href="single.html">HTML & CSS</a></li>
+            <li><a href="single.html">JavaScript</a></li>
+            <li><a href="single.html">PHP & MySQL</a></li>
+            <li class="dropdown">
+              <a href="#">
+                Mental Health
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 14 8" fill="none">
+                  <path d="M1 2L7 7L13 2" stroke="#ffffff" stroke-opacity="0.8" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <ul>
+                <li><a href="single.html">Top 10</a></li>
+                <li><a href="single.html">HTML & CSS</a></li>
+                <li><a href="single.html">JavaScript</a></li>
+                <li><a href="single.html">PHP & MySQL</a></li>
+                <li class="dropdown">
+                  <a href="#">
+                    Mental Health
+                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 14 8" fill="none">
+                      <path d="M1 2L7 7L13 2" stroke="#ffffff" stroke-opacity="0.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    </svg>
+                  </a>
+                  <ul>
+                    <li><a href="single.html">Top 10</a></li>
+                    <li><a href="single.html">HTML & CSS</a></li>
+                    <li><a href="single.html">JavaScript</a></li>
+                    <li><a href="single.html">PHP & MySQL</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Fitness</a></li>
+        <li class="dropdown">
+          <a href="#">
+            Mental Health
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 14 8" fill="none">
+              <path d="M1 2L7 7L13 2" stroke="#ffffff" stroke-opacity="0.8" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+          <ul>
+            <li><a href="single.html">Top 10</a></li>
+            <li><a href="single.html">HTML & CSS</a></li>
+            <li><a href="single.html">JavaScript</a></li>
+            <li><a href="single.html">PHP & MySQL</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Matters</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Header End -->
+
+  <!-- hero Section Start -->
+  <div class="hero-header container-space">
+    <div class="container">
+
+      <div class="play-btn-box">
+        <div class="play-btn">
+          <div class="circle pulse"></div>
+          <div class="circle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+              <polygon points="40,30 65,50 40,70"></polygon>
+            </svg>
+          </div>
+        </div>
+
+        <span><a href="#">Learn More About Us</a></span>
+
+
+        <div class="play-poppup">
+
+          <div class="close-youtube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 19.2 19.2" xml:space="preserve">
+              <path
+                d="M12.57 5.782 9.6 8.752l-2.97-2.97-.848.848 2.97 2.97-2.97 2.97.848.848 2.97-2.97 2.97 2.97.848-.848-2.97-2.97 2.97-2.97z" />
+              <path
+                d="M9.6 0C4.298 0 0 4.298 0 9.6s4.298 9.6 9.6 9.6 9.6-4.298 9.6-9.6S14.902 0 9.6 0m0 17.7c-4.474 0-8.1-3.626-8.1-8.1s3.626-8.1 8.1-8.1 8.1 3.626 8.1 8.1-3.626 8.1-8.1 8.1" />
+            </svg>
+          </div>
+
+
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/9MazN_6wdqI?si=cVQUEsIdcfhPRrt8"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <div class="content">
+          <div class="h3">Your True Health Companion To Age Gracefully</div>
+          <p>Discover a wealth of resources and expert advice tailored to help you achieve a vibrant lifestyle in your
+            golden years.</p>
+        </div>
+        <a href="#" class="btn-fill">Find a Senior Community</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- hero Section End -->
+
+  <!-- Cards Start -->
+  <div class="container container-space">
+    <div class="row row-gap">
+      <div class="col-lg-4 col-md-6">
+        <div class="hero-card">
+          <img src="assets/img/hero-card/hero-card-1.webp" alt="" class="img-fluid">
+          <div class="h5 mb-0">Nutrition & Diet</div>
+          <p>Diet tips to manage health & fitness.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="hero-card">
+          <img src="assets/img/hero-card/hero-card-2.webp" alt="" class="img-fluid">
+          <div class="h5 mb-0">Mental Health</div>
+          <p>Learn and embrace happiness & self-love</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="hero-card">
+          <img src="assets/img/hero-card/hero-card-3.webp" alt="" class="img-fluid">
+          <div class="h5 mb-0">Exercises</div>
+          <p>Establish an exercise routine for overall well-being.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="hero-card">
+          <img src="assets/img/hero-card/hero-card-5.webp" alt="" class="img-fluid">
+          <div class="h5 mb-0">Fun Activities</div>
+          <p>Fun and mindful games for relaxation.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="hero-card">
+          <img src="assets/img/hero-card/hero-card-6.webp" alt="" class="img-fluid">
+          <div class="h5 mb-0">Retirement Advice</div>
+          <p>Access your finances and investment choices.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="hero-card">
+          <img src="assets/img/hero-card/hero-card-4.webp" alt="" class="img-fluid">
+          <div class="h5 mb-0">Products</div>
+          <p>Solutions supporting daily living activities.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cards End  -->
+
+  <!-- Guide For Seniors Start -->
+  <div class="container container-space">
+    <div class="sep">
+      <div>
+        <span>Guide For Seniors</span>
+      </div>
+    </div>
+
+    <div class="slider account-slider-1">
+      <div class="button-container">
+        <button class="button-prev" id="previous-arrow" disabled="">
+          <div>
+            <svg width="21" height="21" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m7.027 10.038 5.3125-5.3125c0.3672-0.36719 0.9609-0.36719 1.3242 0l0.8828 0.88281c0.3672 0.36719 0.3672 0.96094 0 1.3242l-3.7617 3.7695 3.7656 3.7656c0.3672 0.3672 0.3672 0.961 0 1.3242l-0.8828 0.8868c-0.3672 0.3672-0.9609 0.3672-1.3242 0l-5.3125-5.3125c-0.37109-0.3672-0.37109-0.961-0.00391-1.3282z">
+              </path>
+              <path
+                d="m7.027 10.038 5.3125-5.3125c0.3672-0.36719 0.9609-0.36719 1.3242 0l0.8828 0.88281c0.3672 0.36719 0.3672 0.96094 0 1.3242l-3.7617 3.7695 3.7656 3.7656c0.3672 0.3672 0.3672 0.961 0 1.3242l-0.8828 0.8868c-0.3672 0.3672-0.9609 0.3672-1.3242 0l-5.3125-5.3125c-0.37109-0.3672-0.37109-0.961-0.00391-1.3282z"
+                fill="#fff"></path>
+            </svg>
+          </div>
+        </button>
+        <button class="button-next" id="next-arrow">
+          <div>
+            <svg width="21" height="21" fill="none" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m14.101 11.345-5.3125 5.3125c-0.36719 0.3672-0.96094 0.3672-1.3242 0l-0.88281-0.8828c-0.36719-0.3672-0.36719-0.9609 0-1.3242l3.7656-3.7656-3.7656-3.7656c-0.36719-0.36719-0.36719-0.96094 0-1.3242l0.87891-0.89063c0.36718-0.36718 0.96093-0.36718 1.3242 0l5.3125 5.3125c0.3711 0.3672 0.3711 0.961 0.0039 1.3281z"
+                fill="#fff"></path>
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div class="slider-wrap">
+        <div class="slide-card">
+          <div class="guide" data-color="yellow">
+            <img src="assets/img/fitness.svg" alt="Mental Health" class="img-fluid">
+            <div class="h5">Senior Care Guide</div>
+            <p>Ensure high-quality assistance for utmost care and support. </p>
+            <a href="#" class="btn-outline">
+              Read More
+              <svg viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" aria-labelledby="chevronsRightIconTitle"
+                stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#000"
+                width="15" height="15">
+                <g stroke-width="0" />
+                <g />
+                <path d="M8.125 4.375 11.25 7.5l-3.125 3.125h0m-3.75-6.25L7.5 7.5l-3.125 3.125h0" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="slide-card">
+          <div class="guide" data-color="green">
+            <img src="assets/img/fitness.svg" alt="Mental Health" class="img-fluid">
+            <div class="h5">Nurture New Technology</div>
+            <p>Expert advice in choosing the right and required devices and tools.</p>
+            <a href="#" class="btn-outline">
+              Read More
+              <svg viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" aria-labelledby="chevronsRightIconTitle"
+                stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#000"
+                width="15" height="15">
+                <g stroke-width="0" />
+                <g />
+                <path d="M8.125 4.375 11.25 7.5l-3.125 3.125h0m-3.75-6.25L7.5 7.5l-3.125 3.125h0" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="slide-card">
+          <div class="guide" data-color="pink">
+            <img src="assets/img/fitness.svg" alt="Mental Health" class="img-fluid">
+            <div class="h5">Support Groups & Communities</div>
+            <p>Bringing people together to share problems and solutions. </p>
+            <a href="#" class="btn-outline">
+              Read More
+              <svg viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" aria-labelledby="chevronsRightIconTitle"
+                stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#000"
+                width="15" height="15">
+                <g stroke-width="0" />
+                <g />
+                <path d="M8.125 4.375 11.25 7.5l-3.125 3.125h0m-3.75-6.25L7.5 7.5l-3.125 3.125h0" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="slide-card">
+          <div class="guide" data-color="blue">
+            <img src="assets/img/fitness.svg" alt="Mental Health" class="img-fluid">
+            <div class="h5">Calculator For Seniors</div>
+            <p>Streamline regular assessments and performance tests. </p>
+            <a href="#" class="btn-outline">
+              Read More
+              <svg viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" aria-labelledby="chevronsRightIconTitle"
+                stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#000"
+                width="15" height="15">
+                <g stroke-width="0" />
+                <g />
+                <path d="M8.125 4.375 11.25 7.5l-3.125 3.125h0m-3.75-6.25L7.5 7.5l-3.125 3.125h0" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Guide For Seniors End  -->
+
+  <!-- Caregiver Forum Start -->
+  <div class="container container-space">
+    <div class="sep">
+      <div>
+        <span>Caregiver Forum</span>
+      </div>
+    </div>
+
+    <div class="row row-gap">
+      <div class="col-lg-8">
+        <div class="forum-Post">
+          <div class="card-content hp-card">
+            <a href="#" class="card-title ">Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Ex, velit.</a>
+            <div class="health-cd-detls">
+              <span>
+                May 20, 2023
+              </span>
+              <a href="#">View Details</a>
+            </div>
+          </div>
+          <div class="card-content hp-card">
+            <a href="#" class="card-title ">Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Ex, velit.</a>
+            <div class="health-cd-detls">
+              <span>
+                May 20, 2023
+              </span>
+              <a href="#">View Details</a>
+            </div>
+          </div>
+          <div class="card-content hp-card">
+            <a href="#" class="card-title ">Lorem ipsum, dolor sit amet consectetur adipisicing
+              elit. Ex, velit.</a>
+            <div class="health-cd-detls">
+              <span>
+                May 20, 2023
+              </span>
+              <a href="#">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="forum-catrgory">
+          <div class="h5">Caring Giving Topic</div>
+          <p>Explore our caregiving topics to find the
+            elder care information that's right for you.</p>
+
+          <div class="caring-cat">
+            <a href="#">Caring For Mom</a>
+            <a href="#">Horscope</a>
+            <a href="#">Mobility</a>
+            <a href="#">Caring For Mom</a>
+            <a href="#">Horscope</a>
+            <a href="#">Mobility</a>
+            <a href="#">Caring For Mom</a>
+            <a href="#">Horscope</a>
+            <a href="#">Caring For Mom</a>
+            <a href="#">Horscope</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Caregiver Forum End  -->
+
+
+  <!-- Blog Start -->
+  <div class="container-space">
+    <div class="container">
+      <div class="sep">
+        <div>
+          <span>Our Blogs</span>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="hp-card d-grid">
+            <div class="img-placeholder img-hover">
+              <a href="#">
+                <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                  class="img-fluid">
+              </a>
+            </div>
+            <div class="card-content">
+              <a href="#" class="card-title ">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Ex, velit.</a>
+              <div class="health-cd-detls">
+                <span>
+                  May 20, 2023
+                </span>
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="hp-card d-grid">
+            <div class="img-placeholder img-hover">
+              <a href="#">
+                <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                  class="img-fluid">
+              </a>
+            </div>
+            <div class="card-content">
+              <a href="#" class="card-title ">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Ex, velit.</a>
+              <div class="health-cd-detls">
+                <span>
+                  May 20, 2023
+                </span>
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="hp-card  d-grid">
+            <div class="img-placeholder img-hover">
+              <a href="#">
+                <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                  class="img-fluid">
+              </a>
+            </div>
+            <div class="card-content">
+              <a href="#" class="card-title ">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Ex, velit.</a>
+              <div class="health-cd-detls">
+                <span>
+                  May 20, 2023
+                </span>
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="hp-card border-n health-bg-card">
+            <div class="img-placeholder img-hover">
+              <a href="#">
+                <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                  class="img-fluid">
+              </a>
+            </div>
+            <div class="card-content p-20">
+              <a href="#" class="card-title h4 mb-0">Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Ex, velit.</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam recusandae eligendi qui
+                accusamus perspiciatis inventore asperiores porro est tempore maiores?
+              </p>
+              <div class="health-cd-detls">
+                <span>
+                  May 20, 2023
+                </span>
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Blog End  -->
+
+  <!-- footer start -->
+  <footer>
+    <div class="container">
+      <div class="row row-gap">
+        <div class="col-lg-4">
+          <div class="footer-bg">
+            <div class="footer-title h4 mb-0">Subscribe To Healthpract</div>
+            <p>Nurture your inbox with health and wellness advice and insights, and practice fitness and healthy living.
+            </p>
+            <form>
+              <input type="text" name="name" placeholder="Enter Your Name" required />
+              <input type="email" name="email" placeholder="Enter Your Email" required />
+              <button type="submit" class="form-btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="footer-menu-cont">
+            <div class="footer-contact">
+              <div class="row row-gap align-items-center">
+                <div class="col-md-9">
+                  <div class="footer-title h5 mb-0">Join Our Community for Better Health!</div>
+                  <p>Start improving your health with expert guidance & personalized tips!</p>
+                </div>
+                <div class="col-md-3">
+                  <a href="contact-us.html" class="btn-fill">Contact Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div class="footer-list">
+                  <div class="footer-title h6">Trending Topics</div>
+                  <ul>
+                    <li><a href="category.html">Category page</a></li>
+                    <li><a href="search-pg.html">Search page</a></li>
+                    <li><a href="thank-you.html">Thankyou page</a></li>
+                    <li><a href="author.html">Authors page</a></li>
+                    <li><a href="404.html">404 page</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer-list">
+                  <div class="footer-title h6">Trending Topics</div>
+                  <ul>
+                    <li><a href="single.html">Single page</a></li>
+                    <li><a href="contact-us.html">Contact us</a></li>
+                    <li><a href="category.html">Category page</a></li>
+                    <li><a href="search-pg.html">Search page</a></li>
+                    <li><a href="thank-you.html">Thankyou page</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="footer-list">
+                  <div class="footer-title h6">Important Links</div>
+                  <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-social">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <a href="mailto:infohealthpract@gmail.com" class="d-flex align-items-center">
+                    <svg height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.2 51.2"
+                      xml:space="preserve">
+                      <g stroke-width="0" />
+                      <g stroke-linecap="round" stroke-linejoin="round" />
+                      <path
+                        d="M51.2 38.606V14.782L37.536 26.694zM43.247 0H7.953A7.953 7.953 0 0 0 0 7.953v.233l22.788 19.867a4.26 4.26 0 0 0 2.812 1.053 4.26 4.26 0 0 0 2.812-1.053L51.2 8.186v-.233A7.953 7.953 0 0 0 43.247 0M31.678 31.801a9.23 9.23 0 0 1-6.078 2.277 9.24 9.24 0 0 1-6.078-2.277l-2.076-1.81-17.24 15.03c.808 3.537 3.967 6.179 7.747 6.179h35.293c3.783 0 6.94-2.642 7.748-6.179l-17.241-15.03zM0 14.782v23.824l13.664-11.913z"
+                        style="fill:#fff" />
+                    </svg>
+                    infohealthpract@gmail.com
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <div class="social-media">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <svg viewBox="0 0 320 512" height="16" width="10">
+                            <path
+                              d="M80 299.3V512h116V299.3h86.5l18-97.8H196v-34.6c0-51.7 20.3-71.5 72.7-71.5 16.3 0 29.4.4 37 1.2V7.9C291.4 4 256.4 0 236.2 0 129.3 0 80 50.5 80 159.4v42.1H14v97.8h66z" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg viewBox="0 0 512 512" height="16" width="16">
+                            <path
+                              d="M459.4 151.7c.3 4.5.3 9.1.3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53C87.4 130.8 165 172.4 252.1 176.9c-1.6-7.8-2.6-15.9-2.6-24C249.5 95.1 296.3 48 354.4 48c30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg viewBox="0 0 448 512" height="16" width="14">
+                            <path
+                              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <svg viewBox="0 0 448 512" height="16" width="14">
+                            <path
+                              d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <p>
+        <strong>Disclaimer: </strong>The information available on the website, including services, products, and
+        content, is delivered for informational
+        purposes at the user’s sole risk. HealthPract is not liable and responsible for any medical advice, assistance,
+        or
+        treatment. Additionally, the user is responsible for verifying that the information is appropriate for personal
+        use. The
+        published content has been fact-checked by health professionals and experts but does not constitute professional
+        medical
+        advice. We recommend consulting your doctor or medical adviser in case of emergency. Our site does not claim to
+        be
+        directly related to any brand, products, or services mentioned on the website and does not have any right to
+        them.
+      </p>
+    </div>
+
+    <p class="copyright text-center">© 2023 Healthpract All Rights Reserved.</p>
+  </footer>
+
+  <!-- footer end -->
+
+  <button id="myBtn" title="Back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="#fff">
+      <path
+        d="M2.721 10.816 1.905 10a.879.879 0 0 1 0-1.247l7.144-7.146a.879.879 0 0 1 1.247 0l7.142 7.142a.879.879 0 0 1 0 1.247l-.816.816a.882.882 0 0 1-1.261-.015l-4.216-4.425v10.565a.88.88 0 0 1-.882.882H9.087a.88.88 0 0 1-.882-.882V6.372L3.982 10.8a.876.876 0 0 1-1.261.015Z" />
+    </svg>
+  </button>
+
+  <script defer src="assets/js/main.js"></script>
+  <script>
+
+    const playBtn = document.querySelector('.play-btn');
+    const Youtubeplay = document.querySelector('.play-poppup');
+    const closeYoutubeplay = document.querySelector('.close-youtube');
+    const HeroOverlay = document.querySelector('.hero-header');
+
+    playBtn.addEventListener('click', function () {
+      // Youtubeplay.style.display = 'block';
+      Youtubeplay.classList.add('open');
+      HeroOverlay.classList.add('overlay');
+      closeYoutubeplay.style.display = 'block';
+    });
+
+    closeYoutubeplay.addEventListener('click', function () {
+      Youtubeplay.classList.remove('open');
+      HeroOverlay.classList.remove('overlay');
+      closeYoutubeplay.style.display = 'none';
+    });
+
+
+
+
+    function accountSlider(slider) {
+      slider.forEach(config => {
+        let { className, slidesPerView, spaceBetween } = config;
+        const defaultSlidesPerView = slidesPerView || 2; // Default slidesPerView if not provided
+        const defaultSpaceBetween = spaceBetween || 20; // Default spaceBetween if not provided
+
+        const sliderParent = document.querySelector('.' + className);
+
+        if (sliderParent) {
+
+          const sliderWrap = sliderParent.querySelector('.slider-wrap');
+          const slideCards = sliderWrap.querySelectorAll('.slide-card');
+          let currentIndex = 0;
+          let slideWidth;
+
+          function updateSlider() {
+            // Update slidesPerView based on window width
+            if (window.innerWidth >= 768 && window.innerWidth < 1024) {
+              slidesPerView = 2; // Display two slides on tablets
+            } else if (window.innerWidth <= 600) {
+              slidesPerView = 1; // Display one slide on mobile
+            }
+
+            // Calculate the width of the container
+            const containerWidth = sliderWrap.offsetWidth;
+
+            // Calculate the width of each slide based on the formula
+            slideWidth = (containerWidth / slidesPerView) - ((slidesPerView - 1) * defaultSpaceBetween / slidesPerView);
+
+            // Set the width and marginRight for each slide
+            for (let i = 0; i < slideCards.length; i++) {
+              slideCards[i].style.width = slideWidth + 'px';
+              slideCards[i].style.marginRight = defaultSpaceBetween + 'px';
+            }
+
+            // Update button states after calculating slide size
+            updateButtonState();
+          }
+
+          function goToNextSlide() {
+            currentIndex = (currentIndex + slidesPerView) % slideCards.length;
+            updateSliderPosition();
+          }
+
+          function goToPrevSlide() {
+            currentIndex = (currentIndex - slidesPerView + slideCards.length) % slideCards.length;
+            updateSliderPosition();
+          }
+
+          function updateSliderPosition() {
+            const translateValue = -currentIndex * (slideWidth + defaultSpaceBetween);
+            sliderWrap.style.transform = `translateX(${translateValue}px)`;
+            updateButtonState();
+          }
+
+          function updateButtonState() {
+            sliderParent.querySelector('#previous-arrow').disabled = currentIndex === 0;
+            sliderParent.querySelector('#next-arrow').disabled = currentIndex + slidesPerView >= slideCards.length;
+          }
+
+          // Initial calculation of slide size
+          updateSlider();
+
+          // Recalculate slide size when the window is resized
+          window.addEventListener('resize', updateSlider);
+
+          // Attach click events to navigation buttons
+          sliderParent.querySelector('#next-arrow').addEventListener('click', goToNextSlide);
+          sliderParent.querySelector('#previous-arrow').addEventListener('click', goToPrevSlide);
+
+        }
+
+      });
+    }
+
+    // Usage
+    accountSlider([
+      { className: 'slider', slidesPerView: 4, spaceBetween: 30 }
+    ]);
+  </script>
+
+</body>
+
+</html>

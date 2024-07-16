@@ -416,6 +416,7 @@ footer p {
 
 .button-next,
 .button-prev {
+    position: absolute;
     z-index: 10;
 }
 
@@ -902,7 +903,7 @@ details[open]>summary::before {
 }
 
 .guide .btn-outline {
-    padding: 7px 20px;
+    padding: 7px 15px;
     border: 1px solid #000;
     font-size: 12px;
     font-weight: 700;
@@ -910,6 +911,7 @@ details[open]>summary::before {
     display: flex;
     align-items: center;
     gap: 5px;
+    margin: auto 0 0 0;
 }
 
 .guide .btn-outline:hover {
@@ -1100,10 +1102,9 @@ details[open]>summary::before {
     background: #fff;
     padding: 30px 25px;
     border-radius: 35px 0 35px 0;
-    /*    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);*/
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     height: 100%;
     transition: .5s;
-    border: 1px solid #ccc;
 }
 
 .hero-card:hover {
